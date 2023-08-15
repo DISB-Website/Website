@@ -13,7 +13,7 @@
                     <div class="column" style="">
                       <p class="text-weight-bold text-white text-h2" style="font-size: 50px;">
                         Git Action
-                        <br>Is Awesome
+                        <br>Is Awesome and Make Your Life Easier
                       </p>
                       <p class="text-white q-pt-sm" style="font-size: 17px; font-weight: 400;">
                         We offer smart, creative and modern IT solutions to deliver your vision.
