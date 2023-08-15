@@ -23,5 +23,5 @@ jobs:
     - name: Build
       run: |
         npm install -g @quasar/cli
-        npm update -g @quasar/cli
-        npx quasar-cli build
+        npm install
+        npx quasar build
