@@ -22,4 +22,4 @@ jobs:
 
     - name: Build
       run: |
-        quasar build
+        npx quasar build
