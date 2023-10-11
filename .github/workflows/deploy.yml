@@ -25,3 +25,9 @@ jobs:
         npm install -g @quasar/cli
         npm install
         quasar build
+
+    - name: Move files to nginx directory
+      run: |
+
+        # Move the Quasar build output to the nginx directory
+        mv /home/ec2-user/actions-runner/_work/Website/Website/dist/spa/* /usr/share/nginx/html/stage/
