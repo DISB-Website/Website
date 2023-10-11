@@ -30,4 +30,4 @@ jobs:
       run: |
 
         # Move the Quasar build output to the nginx directory
-        mv /home/ec2-user/actions-runner/_work/Website/Website/dist/spa/* /usr/share/nginx/html/stage/
+        cp /home/ec2-user/actions-runner/_work/Website/Website/dist/spa/* /usr/share/nginx/html/stage/
