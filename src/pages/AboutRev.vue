@@ -2,7 +2,7 @@
   <div>
     <div class="flex flex-center lnd">
       <div class="lndttl px-vw s-h1">
-        Nurturing Tomorrow’s 
+        Nurturing Tomorrow’s
         <br>Innovation Today
       </div>
       <div class="absolute-bottom">
@@ -22,7 +22,7 @@
         </div>
       </div>
     </div>
-    
+
     <section ref="stHere" class="" style="height:20vh;"></section>
 
     <section>
@@ -84,7 +84,7 @@
       </div>
     </div>
     </section>
-  
+
     <div class="" style="height:20vh;"></div>
 
     <section>
@@ -94,7 +94,7 @@
       </div>
       <div class="q-pa-md c-disb-t s-t2">
         Detik Ideal is built on a vision to be a top-world class IT company with main forte in in-house software development and digital services.
-        <br><br>Established in 2002, we began our journey with skeleton resources, and shortly thereafter, secured a major project in Malawi, Africa. We then expanded our business territory to West Asia and soon after brought our business back to Malaysia. 
+        <br><br>Established in 2002, we began our journey with skeleton resources, and shortly thereafter, secured a major project in Malawi, Africa. We then expanded our business territory to West Asia and soon after brought our business back to Malaysia.
         <br><br>We have since grown from a humble beginning to build our company and people to be the best of the best, and to deliver quality services. All is made possible with the commitment and dedication of our people.
       </div>
       <q-img v-if="$q.screen.lt.md" src="../assets/about/tml.svg"  style="width:85vw; margin:auto;"></q-img>
@@ -102,7 +102,7 @@
 
     </div>
     </section>
-        
+
     <div class="" style="height:20vh;"></div>
 
     <section>
@@ -217,8 +217,8 @@
         </q-card-section>
 
         <q-card-section class="q-pt-none">
-          Thank you for your interest in us. 
-          <br>We will be in contact soon. 
+          Thank you for your interest in us.
+          <br>We will be in contact soon.
         </q-card-section>
 
         <q-card-actions align="right">
@@ -232,116 +232,125 @@
 </template>
 
 <style scoped lang="sass">
-
 .Copyright
-margin:auto
-text-align:center
-font-size: 15px
-@media screen and (max-width : 600px)
-  font-size: 12px
+  margin: auto
+  text-align: center
+  font-size: 15px
+
+  @media screen and (max-width: 600px)
+    font-size: 12px
 
 .lnd
-position: relative
-height: 100vh
-background-image: url("../assets/about/bg1.png")
-background-position: center
-background-repeat: no-repeat
-background-size: cover
+  position: relative
+  height: 100vh
+  background-image: url("../assets/about/bg1.png")
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
 
-.lndttl 
-color: #FFF
-text-align: center
-font-family: Roboto
-font-size: 50px
-font-style: normal
-font-weight: 700
-line-height: normal
-letter-spacing: 0.75px
+.lndttl
+  color: #FFF
+  text-align: center
+  font-family: Roboto
+  font-size: 50px
+  font-style: normal
+  font-weight: 700
+  line-height: normal
+  letter-spacing: 0.75px
 
-.btm 
-margin: auto
-position: absolute
-bottom: 0
+.btm
+  margin: auto
+  position: absolute
+  bottom: 0
 
 .inficon
-  height:50px
-  width:50px
+  height: 50px
+  width: 50px
   // @media screen and (max-width : 600px)
   //   height: 50px
   //   width: 50px
 
 .pa-soc
-padding: 30px 100px
-@media screen and (max-width : 600px)
-  padding: 30px 10px
+  padding: 30px 100px
+
+  @media screen and (max-width: 600px)
+    padding: 30px 10px
+
 .pa-vw
-padding: 20vw 20vw
+  padding: 20vw 20vw
 
 .px-vy
-padding: 0 15vw
-@media screen and (max-width : 600px)
-  padding: 0 10vw
+  padding: 0 15vw
 
-.px-vw 
-padding: 0 20vw
-@media screen and (max-width : 600px)
-  padding: 0 10vw
-.px-vx 
-padding: 0 15vw
-@media screen and (max-width : 600px)
-  padding: 0 10vw
+  @media screen and (max-width: 600px)
+    padding: 0 10vw
+
+.px-vw
+  padding: 0 20vw
+
+  @media screen and (max-width: 600px)
+    padding: 0 10vw
+
+.px-vx
+  padding: 0 15vw
+
+  @media screen and (max-width: 600px)
+    padding: 0 10vw
 
 .plb-xl
-padding-left: 64px
-padding-bottom: 48px
-@media screen and (max-width : 600px)
-  padding-left: 24px
+  padding-left: 64px
   padding-bottom: 48px
 
-.pxy-mdlg 
-padding: 24px 24px
-@media screen and (max-width : 600px)
-  padding: 24px 0px
+  @media screen and (max-width: 600px)
+    padding-left: 24px
+    padding-bottom: 48px
 
-.px-vwx 
-padding: 0 24vw 48px 24vw
+.pxy-mdlg
+  padding: 24px 24px
 
-.c-disb-h 
-color: #009EE7
+  @media screen and (max-width: 600px)
+    padding: 24px 0px
 
-.c-disb-t 
-color: #273D6C
+.px-vwx
+  padding: 0 24vw 48px 24vw
+
+.c-disb-h
+  color: #009EE7
+
+.c-disb-t
+  color: #273D6C
 
 .bg-blu
-background-color: #009EE7
+  background-color: #009EE7
 
-.s-h1  
-font-size: 3.75rem  // /* 60px */
-line-height: 1
-font-weight: 700 
-@media screen and (max-width : 600px)
-  font-size: 50px
+.s-h1
+  font-size: 3.75rem // /* 60px */
+  line-height: 1
+  font-weight: 700
 
-.s-t1 
-font-size: 1.875rem  // /* 30px */
-line-height: 2.25rem  // /* 36px */
-font-weight: 600
-@media screen and (max-width : 600px)
-  font-size: 24px
+  @media screen and (max-width: 600px)
+    font-size: 50px
 
-.s-t2 
-font-size: 1.25rem   // /* 20px */
-line-height: 1.75rem // /* 28px */
-@media screen and (max-width : 600px)
-  font-size: 18px
+.s-t1
+  font-size: 1.875rem // /* 30px */
+  line-height: 2.25rem // /* 36px */
+  font-weight: 600
 
-.lbcol 
-// /* border-left: 10px linear-gradient(270deg, #264AA0 -16.33%, #009BE2 78%); */
-padding: 0 1rem 0 1rem
-border-width: 3px
-border-style: solid
-border-image: linear-gradient(270deg, #264AA0 -16.33%, #009BE2 78%) 0 0 0 1
+  @media screen and (max-width: 600px)
+    font-size: 24px
 
+.s-t2
+  font-size: 1.25rem // /* 20px */
+  line-height: 1.75rem // /* 28px */
+
+  @media screen and (max-width: 600px)
+    font-size: 18px
+
+.lbcol
+  padding: 0 1rem 0 1rem
+  border-width: 3px
+  border-style: solid
+  border-image: linear-gradient(270deg, #264AA0 -16.33%, #009BE2 78%) 0 0 0 1
 </style>
 
 <script setup>
@@ -352,7 +361,7 @@ import { useQuasar } from 'quasar'
 const $q = useQuasar()
 
 const options = ref([
-'Software Development', 'Mobile + Web Applications', 'System Integration', 'IT Support', 'Training + Consultancy', 'Others' 
+'Software Development', 'Mobile + Web Applications', 'System Integration', 'IT Support', 'Training + Consultancy', 'Others'
 ])
 
 const enq = reactive( {
@@ -381,7 +390,7 @@ e.preventDefault();
     console.log(res)
     })
     .catch (err => console.log(err))
-} 
+}
 
 function acceptRFI () {
 $q.dialog({
