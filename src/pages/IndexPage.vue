@@ -12,7 +12,7 @@
                   <div class="row" style="height: 500px; align-items: center;">
                     <div class="column" style="">
                       <p class="text-weight-bold text-white text-h2" style="font-size: 50px;">
-                        Test
+                        Solutions with
                         <br>Infinite Possibilities
                       </p>
                       <p class="text-white q-pt-sm" style="font-size: 17px; font-weight: 400;">
