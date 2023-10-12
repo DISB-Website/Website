@@ -12,7 +12,8 @@ const routes = [
     path: '/about',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '/about', name: "about", component: () => import('pages/AboutPage.vue') },
+      // { path: '/about', name: "about", component: () => import('pages/AboutPage.vue') },
+      { path: '/about', name: "about", component: () => import('pages/AboutRev.vue') },
     ]
   },
 
@@ -20,7 +21,8 @@ const routes = [
     path: '/service',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '/service', name: "service", component: () => import('pages/ServicePage.vue') },
+      // { path: '/service', name: "service", component: () => import('pages/ServicePage.vue') },
+      { path: '/service', name: "service", component: () => import('pages/ServiceNew.vue') },
     ]
   },
 
@@ -28,7 +30,8 @@ const routes = [
     path: '/products',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '/products', name: "products", component: () => import('pages/ProductsPage.vue') },
+      // { path: '/products', name: "products", component: () => import('pages/ProductsPage.vue') },
+      { path: '/products', name: "products", component: () => import('pages/ProductNew.vue') },
     ]
   },
 
