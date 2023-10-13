@@ -2,7 +2,7 @@ name: Quasar Build with Webpack
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "staging" ]
 
 jobs:
   build:
